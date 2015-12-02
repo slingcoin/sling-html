@@ -1,10 +1,10 @@
-sling-html
-============
+### sling-html5 wallet
+========================
 
-HTML5 interface for [Sling](http://tba...) [(github)](https://github.com/CryptoDJ/sling-core).
+HTML5 interface for [Sling](http://www.slingcoin.io) [(github)](https://github.com/slingcoin).
 To use it, clone this repo under ~/.sling/html like this:
 
-    git clone https://github.com/CryptoDJ/sling-html.git ~/.sling/html
+    git clone https://github.com/slingcoin/sling-html ~/.sling/html
     
 If you'r on **Mac OS X** - clone to ${HOME}/Library/Application\ Support/Sling /html instead of ~/.sling/html
 
@@ -45,10 +45,10 @@ If you want to add your own translation, edit `scripts/app.js` like this:
         git checkout -b Klingon
 
 2. add your language to the list of available choices. You should use your ISO code here,
-it should match what the browser reports. The Klingon ISO is "tlh", so:
+it should match what the browser reports. The Klingon ISO is "klg", so:
 
 
-        `var knownLanguages = ["en","nl","cz","fr","de","sk", "sp"];`
+        `var knownLanguages = ["en","nl","cz","fr","de","sk", "sp", "klg"];`
     
 4. stage all changes in file `app.js` 
 
@@ -64,6 +64,6 @@ it should match what the browser reports. The Klingon ISO is "tlh", so:
 
 
 Market Categories:
-------------
+------------------------
 
 
