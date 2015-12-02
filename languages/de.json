@@ -1,0 +1,13 @@
+{
+  "Menu": {
+    "OVERVIEW": "Aufsicht",
+    "SEND": "Senden",
+	"RECEIVE": "Erhalten",
+	"TRANSACTIONS": "Geschäfte",
+	"ADDRESSBOOK": "Adressbuch",
+	"MARKET": "Markt",
+	"CHAT": "Unterhaltung",
+	"MASTERNODES": "Meister Knoten", 
+	"BLOCKS": "Udforsk Blokke"
+  }
+}

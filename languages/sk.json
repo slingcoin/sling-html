@@ -1,0 +1,13 @@
+{
+  "Menu": {
+    "OVERVIEW": "Prehľad",
+    "SEND": "Poslať",
+	"RECEIVE": "Obdržať",
+	"TRANSACTIONS": "Transakcie",
+	"ADDRESSBOOK": "Adresár",
+	"MARKET": "Trh",
+	"CHAT": "Hovoriť",
+	"MASTERNODES": "Uzly Majster", 
+	"BLOCKS": "Cestovateľ Bloky"
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html> 
+<html ng-app="slingApp" ng-controller="MainCtrl" class="no-js {{containerClass}}"> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>Sling Wallet &amp; Market</title> 
+		<meta name="description" content="Decentralized P2P currency and market."> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+		<link rel="icon" type="image/ico" href="favicon.ico"> 
+		<link rel="stylesheet" href="styles/vendor.css"> 
+		<link rel="stylesheet" href="styles/main.css">  
+		<body id="sling" class="{{main.settings.navbarHeaderColor}} {{main.settings.activeColor}} {{containerClass}}" ng-class="{'header-fixed':main.settings.headerFixed, 'header-static':!main.settings.headerFixed, 'aside-fixed':main.settings.asideFixed, 'aside-static':!main.settings.asideFixed, 'rightbar-show':main.settings.rightbarShow, 'rightbar-hidden':!main.settings.rightbarShow }"> 
+			<!-- Application content --> 
+			<div id="wrap" ui-view autoscroll="false"></div> 
+			<!-- Page Loader --> 
+			<div id="pageloader" page-loader></div> 
+			<script src="scripts/vendor.js"></script> 
+			<script src="scripts/app.js"></script>  
+            <script src="scripts/vendor/adobe.megamenu/j-query-megamenu.js"></script>
+            <script src="scripts/vendor/adobe.megamenu/mega_main.js"></script>

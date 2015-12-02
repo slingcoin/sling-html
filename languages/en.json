@@ -1,0 +1,15 @@
+{
+  "Menu": {
+    "OVERVIEW": "Overview",
+    "SEND": "Send",
+	"RECEIVE": "Receive",
+	"TRANSACTIONS": "Transactions",
+	"ADDRESSBOOK": "Address Book",
+	"MARKET": "Market",
+	"CHAT": "Chat",
+	"MARKET": "Market",
+	"MASTERNODES": "Master Nodes", 
+	"BLOCKS": "Block Explorer"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "Menu": {
+    "OVERVIEW": "Surveillance",
+    "SEND": "Envoyer",
+	"RECEIVE": "Recevoir",
+	"TRANSACTIONS": "Transactions",
+	"ADDRESSBOOK": "Carnet d'Adresses",
+	"MARKET": "Marché",
+	"CHAT": "Bavarder",
+	"MASTERNODES": "Maître Nœuds", 
+	"BLOCKS": "Explorer Blocs"
+  }
+}

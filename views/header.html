@@ -1,0 +1,113 @@
+<header class="clearfix">
+  <!-- Branding --> 
+  <div class="branding {{main.settings.brandingColor}}"> 
+    <a class="brand" ui-sref="app.overview"> 
+    <span><strong>S</strong>ling</span> 
+    </a> 
+  </div>
+  <!-- Branding end --> 
+  <!-- Right-side navigation --> 
+  <ul class="nav-right pull-right list-inline">
+    <li class="dropdown messages" dropdown>
+      <a href class="dropdown-toggle" dropdown-toggle>
+        <fa name="cart-plus"></fa>
+        <span class="badge bg-blue">1</span> 
+      </a>
+      <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInDown" role="menu">
+        <div class="panel-heading"> You have <strong>1</strong> item in your cart </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="javascript:;" class="media">
+              <div class="media-left"> <span class="media-object thumb thumb-sm"> <img src="images/charizard-sample.jpg" alt="" class="img-circle"> </span> </div>
+              <div class="media-body"> <span class="block">Pokémon Mega Charizard Y Pokemon Plush Lizardon...</span> <small class="text-muted">12 minutes ago</small> </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    </li>
+    <li class="dropdown notifications" dropdown>
+      <a href class="dropdown-toggle" dropdown-toggle>
+        <fa name="gavel"></fa>
+        <span class="badge bg-blue">2</span>
+      </a>
+      <div class="dropdown-menu pull-right with-arrow panel panel-default animated littleFadeInLeft" role="menu">
+        <div class="panel-heading">You have <strong>2</strong> new orders
+		</div>
+        <ul class="list-group">
+			
+          <li class="list-group-item">
+            <a href="javascript:;" class="media">
+              <div class="media-left">
+                <span class="media-object thumb thumb-sm"> 
+                    <img src="images/nintendo64-sample.jpg" alt="" class="img-circle"> 
+                </span>
+              </div>
+              <div class="media-body"> 
+                  <span class="block">Nintendo 64 Smoke Grey Console with one controller bundle</span> 
+                  <small class="text-muted">6 minutes ago</small> 
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="javascript:;" class="media">
+              <div class="media-left">
+                <span class="media-object thumb thumb-sm"> 
+                    <img src="images/xbox-sample.jpg" alt="" class="img-circle"> 
+                </span>
+              </div>
+              <div class="media-body"> 
+                  <span class="block">Microsoft Xbox One (Latest Model)- 500 GB Black Console (Without Kinect)</span> 
+                  <small class="text-muted">12 minutes ago</small> 
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="panel-footer">
+          <a href="javascript:;">
+            Show all orders
+            <fa name="angle-right" class="pull-right"></fa>
+          </a>
+        </div>
+      </div>
+    </li>
+	  
+    <li class="dropdown language" dropdown>
+      <a href class="dropdown-toggle" dropdown-toggle> 
+          <img ng-show="currentLanguage == 'en'" src="images/flags/United-States-of-America.42ddfa1a.png" alt=""> 
+          <img ng-show="currentLanguage == 'sk'" src="images/flags/Slovakia.7afe57a3.png" alt=""> 
+          <img ng-show="currentLanguage == 'cz'" src="images/flags/Czech-Republic.1a39c7ed.png" alt=""> 
+          <img ng-show="currentLanguage == 'de'" src="images/flags/Germany.9bd09472.png" alt="">
+        </a> 
+      <ul class="dropdown-menu pull-right with-arrow animated littleFadeInDown" role="menu">
+        <li ng-class="{active: currentLanguage == 'en'}"> 
+            <a href="javascript:;" ng-click="changeLanguage('en')"> 
+                <img src="images/flags/United-States-of-America.42ddfa1a.png" alt=""> English </a> 
+          </li>
+        <li ng-class="{active: currentLanguage == 'sk'}"> 
+            <a href="javascript:;" ng-click="changeLanguage('sk')"> 
+                <img src="images/flags/Slovakia.7afe57a3.png" alt=""> Slovak 
+            </a> 
+          </li>
+        <li ng-class="{active: currentLanguage == 'cz'}"> 
+            <a href="javascript:;" ng-click="changeLanguage('cz')"> 
+                <img src="images/flags/Czech-Republic.1a39c7ed.png" alt=""> Czech 
+            </a> 
+          </li>
+        <li ng-class="{active: currentLanguage == 'de'}"> 
+            <a href="javascript:;" ng-click="changeLanguage('de')"> 
+                <img src="images/flags/Germany.9bd09472.png" alt=""> German 
+            </a> 
+          </li>
+      </ul>
+    </li>
+	  
+    <li class="toggle-right-sidebar">
+      <a href="javascript:;" ng-click="main.settings.rightbarShow = !main.settings.rightbarShow">
+        <fa name="cogs"></fa>
+      </a>
+    </li>
+	  
+  </ul>
+  <!-- Right-side navigation end --> 
+</header>

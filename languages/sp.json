@@ -1,0 +1,13 @@
+{
+  "Menu": {
+    "OVERVIEW": "Vue d'Ensemble",
+    "SEND": "Envoyer",
+	"RECEIVE": "Recevoir",
+	"TRANSACTIONS": "Transactions",
+	"ADDRESSBOOK": "Carnet d'Adresses",
+	"MARKET": "Marché",
+	"CHAT": "Bavarder",
+	"MASTERNODES": "Nœuds Master", 
+	"BLOCKS": "Bloquer l'Explorateur"
+  }
+}
