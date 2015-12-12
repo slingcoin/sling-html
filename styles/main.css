@@ -1812,11 +1812,11 @@ html.boxed-layout {
   display: none !important; }
 
 #header {
-  background-color: #230E6E;
+  background-color: #3c3246; /*Header color*/
   z-index: 1001;
   transition: right 0.25s cubic-bezier(0.6, 0.04, 0.98, 0.335), padding-right 0.25s cubic-bezier(0.6, 0.04, 0.98, 0.335); }
   #header .branding {
-    background-color: #230B6E;
+    background-color: #3c3246;/*Header color*/
     width: 250px;
     height: 45px;
     float: left;
@@ -1959,7 +1959,7 @@ html.boxed-layout {
         padding: 0; }
         #header .nav-right > li.toggle-right-sidebar > a,
         #header .nav-left > li.toggle-right-sidebar > a {
-          background-color: #230B6E;
+          background-color: #3c3246; /*Header color*/
           line-height: 45px;
           padding: 0 15px; }
   #header .nav-left {
@@ -2111,7 +2111,7 @@ html.boxed-layout {
 #sidebar {
   width: 250px;
   padding: 0;
-  background-color: #230B6E;
+  background-color: #3c3246; /*Header color*/
   z-index: 21;
   -webkit-overflow-scrolling: touch;
   -webkit-overflow-scrolling: -blackberry-touch; }
@@ -2189,7 +2189,7 @@ html.boxed-layout {
   -webkit-overflow-scrolling: touch;
   -webkit-overflow-scrolling: -blackberry-touch;
   list-style: none;
-  background-color: #230B6E; }
+  background-color: #3c3246; }/*Header color*/
   #navigation > li > a > i {
     display: inline-block;
     margin-right: 10px;
@@ -2303,7 +2303,7 @@ html.boxed-layout {
     height: 100%;
     position: absolute;
     width: 80px;
-    background-color: #230B6E; }
+    background-color: #3c3246; } /*Header color*/
   .sidebar-sm #sidebar.dropdown-open,
   .sidebar-xs #sidebar.dropdown-open {
     width: 100% !important; }
@@ -2523,7 +2523,7 @@ html.boxed-layout {
           content: "\f105";
           color: #95a2a9; }
         .pageheader .page-bar .page-breadcrumb > li:first-child {
-          background-color: #230B6E;
+          background-color: #3c3246; /*Header color*/
           margin-right: 8px; }
           .pageheader .page-bar .page-breadcrumb > li:first-child > a {
             color: rgba(255, 255, 255, 0.5); }
